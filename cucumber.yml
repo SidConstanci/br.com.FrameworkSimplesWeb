@@ -1,0 +1,11 @@
+---
+
+default: -p pretty -p homolog -p html -p json
+
+pretty: --format pretty
+#Ambientes
+homolog: AMBIENTE=homolog
+
+#Relatorio
+html: --format html --out=report/relatorio.html
+json: --format message --out=report/relatorio.json
